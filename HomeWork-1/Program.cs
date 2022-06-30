@@ -27,8 +27,8 @@ namespace HomeWork_1
             Console.ReadLine(); // Input: Wats your name?
             String name = "Ilon ";
             String lastName = "Mask";
-
             Console.WriteLine(name + lastName);
+
             //I could write something like these, but nothing else came to mind)
             Console.ReadKey();
         }
