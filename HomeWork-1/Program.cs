@@ -19,12 +19,16 @@ namespace HomeWork_1
             Console.WriteLine(num1*num3); // mul operetion
 
             char simbol1 = 'a';
-
-            Console.Write(simbol1+num2);//Concatenation opr
+            Console.WriteLine(simbol1+num2);//Concatenation opr
 
             byte num4 = 4;
+            Console.WriteLine(num3 / num4); // Return result after operetion devided
 
-            Console.WriteLine(num3/num4); // Return result after operetion devided
+            Console.ReadLine(); // Input: Wats your name?
+            String name = "Ilon ";
+            String lastName = "Mask";
+
+            Console.WriteLine(name + lastName);
             //I could write something like these, but nothing else came to mind)
             Console.ReadKey();
         }
