@@ -10,6 +10,10 @@ namespace HomeWork_1
     {
         static void Main(string[] args)
         {
+            int num1 = 5;
+            int num2 = 12;
+
+            Console.Write(num1 + num2);
         }
     }
 }
