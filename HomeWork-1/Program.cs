@@ -42,27 +42,21 @@ namespace HomeWork_1
             ////decimal sum = (decimal)((double)floa + doub);
             ////Console.WriteLine(sum);
 
-            Console.WriteLine("Enter your number1");
+            //Console.WriteLine("Enter your number1");
 
-            decimal number1 = Convert.ToDecimal(Console.ReadLine());
-            
+            //decimal number1 = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine("Enter your number2");
-            decimal number2 = Convert.ToDecimal(Console.ReadLine());
-            
-            
+            Console.WriteLine("Enter your numbers: ");
+            int a = Convert.ToInt32(Console.ReadLine());
 
-            decimal result = number1 + number2;
+            int sum = 0;
 
-            Console.WriteLine(result);
-           
+            for (; a != 0; a /= 10)
+            {
+                sum += a % 10;
+            }
 
-            
-
-
-
-
-
+            Console.WriteLine(sum);
 
             Console.ReadKey();
         }
