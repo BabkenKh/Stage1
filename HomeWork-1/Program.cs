@@ -46,17 +46,54 @@ namespace HomeWork_1
 
             //decimal number1 = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine("Enter your numbers: ");
-            int a = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter your numbers: ");
+            //int a = Convert.ToInt32(Console.ReadLine());
 
-            int sum = 0;
+            //int sum = 0;
 
-            for (; a != 0; a /= 10)
+            //for (; a != 0; a /= 10)
+            //{
+            //    sum += a % 10;
+            //}
+
+            //Console.WriteLine(sum);
+
+
+            // Buble sort O(n^2)
+
+
+            const int size = 5;
+
+            int[] arr = new int[size];
+
+            for (int i = 0; i < arr.Length; ++i)
             {
-                sum += a % 10;
+                arr[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.WriteLine(sum);
+            for (int i = 0; i < arr.Length; ++i)
+            {
+                Console.Write(arr[i] + " ");
+            }
+
+            for (int j = 0; j < arr.Length; ++j)
+            {
+                for (int i = 1; i < arr.Length - j; ++i)
+                {
+                    if (arr[i-1] > arr[i])
+                    {
+                        int temp = arr[i];
+                        arr[i] = arr[i - 1];
+                        arr[i - 1] = temp;
+                    }
+                }
+            }
+            
+            Console.WriteLine();
+            for (int i = 0; i < arr.Length; ++i)
+            {
+                Console.Write(arr[i] + " ");
+            }
 
             Console.ReadKey();
         }
