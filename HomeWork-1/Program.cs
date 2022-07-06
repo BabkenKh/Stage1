@@ -59,41 +59,14 @@ namespace HomeWork_1
             //Console.WriteLine(sum);
 
 
-            // Buble sort O(n^2)
+            //StringBuilder sb = new StringBuilder("AAAAAAAAAAAAAAAAA");
+            //var legt = sb.Length;
+            //Console.WriteLine(legt);
+            //var cap = sb.Capacity;
+            //Console.WriteLine(cap);
 
-
-            const int size = 5;
-
-            int[] arr = new int[size];
-
-            for (int i = 0; i < arr.Length; ++i)
-            {
-                arr[i] = Convert.ToInt32(Console.ReadLine());
-            }
-
-            for (int i = 0; i < arr.Length; ++i)
-            {
-                Console.Write(arr[i] + " ");
-            }
-
-            for (int j = 0; j < arr.Length; ++j)
-            {
-                for (int i = 1; i < arr.Length - j; ++i)
-                {
-                    if (arr[i-1] > arr[i])
-                    {
-                        int temp = arr[i];
-                        arr[i] = arr[i - 1];
-                        arr[i - 1] = temp;
-                    }
-                }
-            }
+           
             
-            Console.WriteLine();
-            for (int i = 0; i < arr.Length; ++i)
-            {
-                Console.Write(arr[i] + " ");
-            }
 
             Console.ReadKey();
         }
