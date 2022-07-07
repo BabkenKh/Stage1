@@ -83,7 +83,7 @@ namespace IF_ELSE
             {
                 Console.WriteLine("False");
             }
-            Console.WriteLine("=====================");
+            Console.WriteLine("====================="); //fdsfsdfdsf
             //28
             int q = b/a;
 
