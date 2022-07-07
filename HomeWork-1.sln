@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "String", "String", "{FEE6EB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{86014C91-A422-494B-BBC7-2F8F57A8BA4B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IF ELSE", "IF ELSE", "{97DDA5B2-9255-44B3-ACD3-C402335173BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IF_ELSE", "IF_ELSE\IF_ELSE.csproj", "{72371E32-97DA-4336-9445-B7B9323C338B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{86014C91-A422-494B-BBC7-2F8F57A8BA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86014C91-A422-494B-BBC7-2F8F57A8BA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86014C91-A422-494B-BBC7-2F8F57A8BA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72371E32-97DA-4336-9445-B7B9323C338B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72371E32-97DA-4336-9445-B7B9323C338B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72371E32-97DA-4336-9445-B7B9323C338B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72371E32-97DA-4336-9445-B7B9323C338B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86014C91-A422-494B-BBC7-2F8F57A8BA4B} = {FEE6EB79-2A10-4DC9-A7A0-D6A362C12880}
+		{72371E32-97DA-4336-9445-B7B9323C338B} = {97DDA5B2-9255-44B3-ACD3-C402335173BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {383BCDB4-8B81-430D-89E3-E4BD8FEF1A71}
