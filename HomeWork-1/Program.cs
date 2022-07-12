@@ -1,4 +1,5 @@
 ﻿using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,12 @@ namespace HomeWork_1
 {
     class Program
     {
+        public static int Sum(int a)
+        {
+            int sum = a + a;
+            return sum;
+        }
+
         static void Main(string[] args)
         {
             //int num1 = 5;
@@ -65,8 +72,56 @@ namespace HomeWork_1
             //var cap = sb.Capacity;
             //Console.WriteLine(cap);
 
-           
-            
+            //string symbol = Console.ReadLine();
+
+            //string[] Data = new string[4];
+
+            //Data[0] = "aa";
+            //Data[1] = "bb";
+            //Data[2] = "cc";
+            //Data[3] = "dd";
+
+
+            ////for (int i = 0; i < Data.Length; ++i)
+            ////{
+            ////    if (symbol == Data[i])
+            ////    {
+            ////        Console.WriteLine("Index: "+ i +" "+ Data[i]);
+            ////    }
+            ////}
+            //foreach (var item in Data)
+            //{
+            //   if(item == "aa")
+            //    {
+            //        Console.WriteLine(Array.IndexOf(Data,item));
+            //    }
+            //}
+            //int max = 0;
+            //int temp;
+            //int[] Data = { 15, 26, 21, 213, 26, 124 };
+
+            //for (int i = 0; i < Data.Length; ++i)
+            //{
+            //    for (int j = i; j < Data.Length - i; ++j)
+            //    {
+            //        if (Data[j - 1] > Data[j])
+            //        {
+            //            temp = Data[j-1];
+            //            Data[j] = Data[j-1];
+            //            Data[j] = temp;
+            //        }
+            //    }
+            //}
+
+
+            //for (int j = 0; j < Data.Length; ++j)
+            //{
+            //    Console.WriteLine(Data[j]);
+            //}
+
+            int b=Sum(5);
+
+            Console.WriteLine(b);
 
             Console.ReadKey();
         }
