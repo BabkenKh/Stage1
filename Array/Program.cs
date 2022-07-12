@@ -53,8 +53,9 @@ namespace Array
 
             for (int i = 0; i < size; ++i)
             {
-                arr[i] = number.Next(100);
+                arr[i] = number.Next(10);
             }
+            CountingSort(arr);
 
             int[] arr_copy = arr;
             System.Array.Sort(arr_copy);
