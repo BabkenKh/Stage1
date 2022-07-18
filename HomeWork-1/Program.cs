@@ -9,11 +9,7 @@ namespace HomeWork_1
 {
     class Program
     {
-        public static int Sum(int a)
-        {
-            int sum = a + a;
-            return sum;
-        }
+       
 
         static void Main(string[] args)
         {
@@ -119,9 +115,6 @@ namespace HomeWork_1
             //    Console.WriteLine(Data[j]);
             //}
 
-            int b=Sum(5);
-
-            Console.WriteLine(b);
 
             Console.ReadKey();
         }
