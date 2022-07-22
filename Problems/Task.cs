@@ -9,7 +9,7 @@ namespace Problems
     static class Task
     {
         const int size = 3;
-        static string[] Data = new string[10];
+        static string[] Data = new string[size];
 
         public static void AddElments()
         {
