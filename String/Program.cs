@@ -12,6 +12,7 @@ namespace String
         static void Main(string[] args)
         {
             string Data = Console.ReadLine();
+            
 
             int[] asciiArr = new int[256];
             int max_counter = 0;

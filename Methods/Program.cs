@@ -9,7 +9,7 @@ namespace Methods
 
     class Program
     {
-
+       
         public static decimal Sum(decimal a, decimal b)
         {
             return a + b;
@@ -58,6 +58,8 @@ namespace Methods
 
                     break;
             }
+           
+
 
             Console.ReadKey();
         }
