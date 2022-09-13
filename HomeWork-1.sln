@@ -45,6 +45,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problems_with_Class", "Prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubgPlayer", "PubgPlayer\PubgPlayer.csproj", "{F0A712FA-A636-46C2-8A39-6F63C6AA6A1A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principe OOP", "Principe OOP", "{3C86E3C1-048E-46B9-9A4D-55FEAB571205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Principes", "Principes\Principes.csproj", "{D0439335-16D2-40B2-80C4-BD3160BF865A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +99,10 @@ Global
 		{F0A712FA-A636-46C2-8A39-6F63C6AA6A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0A712FA-A636-46C2-8A39-6F63C6AA6A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0A712FA-A636-46C2-8A39-6F63C6AA6A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0439335-16D2-40B2-80C4-BD3160BF865A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0439335-16D2-40B2-80C4-BD3160BF865A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0439335-16D2-40B2-80C4-BD3160BF865A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0439335-16D2-40B2-80C4-BD3160BF865A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +120,7 @@ Global
 		{2FB62428-19D5-436D-B7AC-3C31940C6CA7} = {3C78BFE0-BA91-4097-A946-52DAD85392F2}
 		{444B4F2A-1272-402A-9DA5-FA2A67A6A763} = {C7289845-85F3-42D8-B41A-7584E742ADD0}
 		{F0A712FA-A636-46C2-8A39-6F63C6AA6A1A} = {989D3488-38A8-4A56-B8A2-977B08FA8D17}
+		{D0439335-16D2-40B2-80C4-BD3160BF865A} = {3C86E3C1-048E-46B9-9A4D-55FEAB571205}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {383BCDB4-8B81-430D-89E3-E4BD8FEF1A71}
